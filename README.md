@@ -1,58 +1,56 @@
-# 📊 Linear Regression Project (From Scratch + Sklearn)
+# 📊 Linear Regression using Scikit-learn
 
-This project demonstrates the implementation of Simple Linear Regression in two ways:
-
-1. 🔹 From Scratch (without using any ML library)  
-2. 🔹 Using Scikit-learn  
-
----
-
-## 📁 Project Structure
-
-- `from_scratch.ipynb` → Custom implementation of Linear Regression  
-- `sklearn_model.ipynb` → Implementation using sklearn  
-- `placement.csv` → Dataset (CGPA vs Package)  
+This project demonstrates the implementation of Simple Linear Regression using Scikit-learn on a CGPA vs Package dataset.
 
 ---
 
 ## 🚀 Objective
 
-To understand how Linear Regression works mathematically and compare it with a standard library implementation.
+To build a predictive model that estimates salary package based on CGPA using a standard machine learning library.
+
+---
+
+## 📁 Dataset
+
+- `placement.csv`
+- Features:
+  - CGPA (Independent Variable)
+  - Package (Dependent Variable)
 
 ---
 
 ## ⚙️ Technologies Used
 
 - Python  
-- NumPy  
 - Pandas  
+- NumPy  
 - Matplotlib  
 - Scikit-learn  
 
 ---
 
-## 📈 Key Learnings
+## 🔧 Steps Performed
 
-- How slope (m) and intercept (b) are calculated  
-- Difference between DataFrame and Series in Pandas  
-- Model training and prediction  
-- Comparing manual implementation with sklearn  
-- Debugging real-world errors  
+1. Data loading and preprocessing  
+2. Train-test split  
+3. Model training using Linear Regression  
+4. Prediction on test data  
+5. Visualization of results  
 
 ---
 
-## 🔍 Results
+## 📈 Results
 
-Both models (custom and sklearn) produce similar results, validating the correctness of the implementation.
+The model successfully learned the relationship between CGPA and Package and was able to make predictions on unseen data.
 
 ---
 
 ## 📌 Conclusion
 
-Understanding the core mathematics behind machine learning algorithms helps in better problem-solving and debugging, while libraries like sklearn make implementation faster and efficient.
+Scikit-learn makes it easy to implement machine learning models efficiently, even for beginners.
 
 ---
 
-## 🔗 Connect with Me
+## 🔗 Future Work
 
-If you found this helpful, feel free to connect with me on LinkedIn!
+Next, I will implement Linear Regression from scratch to understand the underlying mathematics.
